@@ -1,0 +1,246 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+
+  background: #ffefba;
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  );
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  );
+  
+
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  /* Typography */
+  --step--4: clamp(8.16px, calc(8.8px + -0.05vw), 8.64px);
+  --step--3: clamp(10.24px, calc(10.56px + -0.02vw), 10.4px);
+  --step--2: clamp(12.48px, calc(12.32px + 0.03vw), 12.8px);
+  --step--1: clamp(15.04px, calc(14.72px + 0.11vw), 16px);
+  --step-0: clamp(18.08px, calc(17.28px + 0.22vw), 20px);
+  --step-1: clamp(21.6px, calc(20.48px + 0.37vw), 24.96px);
+  --step-2: clamp(25.92px, calc(24px + 0.58vw), 31.2px);
+  --step-3: clamp(31.04px, calc(28.32px + 0.87vw), 39.04px);
+  --step-4: clamp(37.28px, calc(33.28px + 1.25vw), 48.8px);
+  --step-5: clamp(44.8px, calc(39.2px + 1.77vw), 61.12px);
+
+  /* Colors */
+  --primary-green: #52af1f;
+
+  /* Font Family */
+}
+
+h1 {
+  font-size: var(--step-5);
+}
+h2 {
+  font-size: var(--step-4);
+}
+h3 {
+  font-size: var(--step-3);
+}
+
+h4 {
+  font-size: var(--step-2);
+}
+
+h5 {
+  font-size: var(--step-1);
+}
+
+h6 {
+  font-size: var(--step-0);
+}
+
+html,
+body,
+/* div, */
+span,
+applet,
+object,
+iframe,
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6, */
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: #42446E;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  width: 100%;
+  zoom: 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 1.1rem;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+
+
+@layer utilities {
+  .text-step-0 {
+    font-size: clamp(18.08px, calc(17.28px + 0.22vw), 20px);
+  }
+
+  .text-step-1 {
+    font-size: clamp(21.6px, calc(20.48px + 0.37vw), 24.96px);
+  }
+
+  .text-step-2 {
+    font-size: clamp(25.92px, calc(24px + 0.58vw), 31.2px);
+  }
+
+  .text-step-3 {
+    font-size: clamp(31.04px, calc(28.32px + 0.87vw), 39.04px);
+  }
+
+  .text-step-4 {
+    font-size: clamp(37.28px, calc(33.28px + 1.25vw), 48.8px);
+  }
+
+  .text-step-5 {
+    font-size: clamp(44.8px, calc(39.2px + 1.77vw), 61.12px);
+  }
+  .text-step--1 {
+    font-size: clamp(15.04px, calc(14.72px + 0.11vw), 16px);
+  }
+}
+
+

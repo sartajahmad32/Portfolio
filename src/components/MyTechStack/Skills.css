@@ -1,0 +1,62 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0px auto 
+    ;flex-wrap: wrap;
+
+}
+.box{
+    margin: 5px 25px;
+}
+
+
+
+/* Media query for screens larger than 576px (typical small phones) */
+@media (min-width: 360px) {
+    .box {
+      /* Four boxes per row with some spacing */
+      width: 5rem;
+      height: 5rem;
+    }
+    /* .skills{
+      display: flex; 
+       width: 20rem;
+       display: none;
+    } */
+    
+  }
+@media (min-width: 576px) {
+    .box { 
+      /* Four boxes per row with some spacing */
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Media query for screens larger than 768px (larger phones) */
+  @media (min-width: 768px) {
+    .box {
+       /*  Four boxes per row with some spacing */
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Media query for screens larger than 992px (small tablets) */
+  @media (min-width: 992px) {
+    .box {
+      /* Four boxes per row with some spacing */
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Media query for screens larger than 1200px (large tablets and desktops) */
+  @media (min-width: 1200px) {
+    .box {
+      /*Four boxes per row with some spacing */
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }

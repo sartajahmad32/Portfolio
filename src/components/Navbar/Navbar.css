@@ -1,0 +1,21 @@
+/* Navbar Heading */
+.navbar{
+  display: flex;
+  margin-top: 10px;
+}
+
+
+ul{
+  display: flex;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+} 
+/* li{
+  background: linear-gradient(to right,#ff8a00,#dd4c4f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+li{
+  color: white;
+}

@@ -1,0 +1,55 @@
+.projects{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+.card{
+    margin: 10px;
+    box-shadow: 1px 1px 20px gray;
+}
+.card-img-top{
+    height: 13rem;
+}
+
+
+/* Media query for this */
+
+/* Media query for screens up to 576px (typical small phones) */
+@media (max-width: 576px) {
+    .card {
+      max-width: 100%; /* Take full width on small screens */
+    }
+  }
+@media (min-width: 360px) {
+    .card {
+      /* max-width: 10ake full width on small screens */
+      width: 20rem;
+      box-shadow:2px 2px 29px 5px gray;
+    }
+    .projects{
+      width: 36rem ;
+    }
+  }
+  
+  /* Media query for screens between 576px and 768px (larger phones) */
+  @media (min-width: 576px) and (max-width: 768px) {
+    .card {
+      max-width: calc(50% - 1rem); /* Two cards per row with some spacing */
+    }
+  }
+  
+  /* Media query for screens between 768px and 992px (tablets) */
+  @media (min-width: 768px) and (max-width: 992px) {
+    .card {
+      max-width: calc(33.33% - 1rem); /* Three cards per row with some spacing */
+    }
+  }
+  
+  /* Media query for screens larger than 992px (desktops) */
+  @media (min-width: 992px) {
+    .card {
+      max-width: 25.5rem;
+    }
+  }
