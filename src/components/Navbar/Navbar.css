@@ -19,3 +19,47 @@ ul{
 li{
   color: white;
 }
+.toggle-btn{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+    opacity: .7;
+    padding: 10px;
+  }
+
+  .navbar ul.show {
+    display: flex;
+  }
+  .navbar ul.show {
+    display: flex;
+  }
+
+  .navbar li {
+    margin: 5px 0;
+    color: white;
+    display: flex;
+    
+  }
+  .navbar li a{
+    margin: 5px 0;
+    color: white;
+    display: flex;
+  }
+
+  .navbar button {
+    display: block; /* Show the button on smaller screens */
+    margin-top: 10px;
+  }
+  .whatsapp{
+    background-color: white;
+  }
+}

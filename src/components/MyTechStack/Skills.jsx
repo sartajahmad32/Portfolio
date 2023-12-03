@@ -3,7 +3,7 @@ import './Skills.css'
 const Skills = () => {
   return (
     <>
-        <div className="skills skill mt-14">
+        <div className="skills skill mt-14 mb-8">
             <div className="box"><img src="Icons/html.svg" alt="" /></div>
             <div className="box"><img src="Icons/css.svg" alt="" /></div>
             <div className="box"><img src="Icons/js.svg" alt="" /></div>

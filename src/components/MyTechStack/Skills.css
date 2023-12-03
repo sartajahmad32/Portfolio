@@ -1,10 +1,13 @@
 .skills{
     display: flex;
     justify-content: center;
-    width: 60%;
+    /* width: 60%; */
     margin: 0px auto 
     ;flex-wrap: wrap;
 
+}
+.skills>div{
+  margin: 15px 8px;
 }
 .box{
     margin: 5px 25px;
